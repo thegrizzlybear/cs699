@@ -1,0 +1,54 @@
+ git init
+ ls
+ ls -a
+ vi .gitignore
+ git status
+ git add module.*
+ git add module.c
+ git add module.h
+ git commit -m "added module files to the git repo"
+ git status
+ git log
+ git commit -a -m "Added test program to the repo"
+ git log
+ git add test.c 
+ git commit -m "Added test program to the repo"
+ git log
+ git branch 
+ git branch cmdline
+ git branch 
+ git checkout cmdline
+ git status
+ git log
+ vi test.c 
+ git status
+ git add test.c 
+ git commit -m "modified test.c to have cmdline options in the test program"
+ git log
+ ls -a
+ gcc test.c  module.o -o test
+ ./test 
+ ./test uddhav
+ ls
+ git branch master 
+ git checkout master 
+ git merge
+ vi test.c 
+ git merge cmdline
+ vi test.c 
+ ./test 
+ ./test uddhav
+ gcc test.c module.o -o test1
+ ./test1 "uddhav arote"
+ git checkout cmdline
+ vi test.c 
+ git log
+ git add test.c 
+ ls
+ git status
+ vi .gitignore 
+ git status
+ git commit -m "The test program is modified to have a string printed before the cmd args"
+ git log
+ git checkout master 
+ git merge cmdline 
