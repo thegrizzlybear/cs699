@@ -1,0 +1,6 @@
+
+inkscape -D -A esense.pdf assignment2_1.svg
+inkscape -D -P esense_eps.eps assignment2_1.svg
+
+inkscape -D -A lo3.pdf assignment2_2.svg
+inkscape -D -P lo3_eps.eps assignment2_2.svg
