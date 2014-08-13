@@ -5,4 +5,4 @@ all: test.c  final_test.c module.o
 module.o: module.c module.h
 	gcc -c module.c -o module.o
 clean:
-	rm *.o test
+	rm *.o test finale
