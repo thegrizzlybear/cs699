@@ -19,7 +19,7 @@ int main(int argc, char ** argv)
 }
 
 
-void foo()
+void Foo()
 {
 	printf("Some random function") ;
 }
