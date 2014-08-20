@@ -1,0 +1,20 @@
+\begin{center}
+\begin{table*}[ht]
+{\small
+\hfill{}
+\begin{tabular}{|l|l|c|c|c|c|c|c|c|}
+\hline
+\textbf{Hello}&\textbf{Hello}& \multicolumn{7}{|c|}{\textbf{Hello}}\\
+\cline{3-9}
+\hline
+AAAAA&AAAAA&AAAAA&AAAAA&AAAAA&AAAAA&AAAAA&AAAAA&AAAAA\\
+BBBBB&BBBBB&BBBBB&BBBBB&BBBBB&BBBBB&BBBBB&BBBBB&BBBBB\\
+AAAAA&AAAAA&AAAAA&AAAAA&AAAAA&AAAAA&AAAAA&AAAAA&AAAAA\\
+BBBBB&BBBBB&BBBBB&BBBBB&BBBBB&BBBBB&BBBBB&BBBBB&BBBBB\\
+\hline
+\end{tabular}}
+\hfill{}
+\caption{Table Name}
+\label{tb:tablename}
+\end{table*}
+\end{center}
